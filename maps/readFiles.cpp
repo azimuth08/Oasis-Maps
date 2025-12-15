@@ -1,4 +1,4 @@
-#include "readFiles.h"
+#include "include/readFiles.h"
 
 
 // removes any whitespace at the end of the string

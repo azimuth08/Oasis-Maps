@@ -77,12 +77,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="draw.h" />
-    <ClInclude Include="HashTable.h" />
-    <ClInclude Include="library.h" />
-    <ClInclude Include="MapStructs.h" />
-    <ClInclude Include="PriorityQueue.h" />
-    <ClInclude Include="readFiles.h" />
+    <ClInclude Include="include\draw.h" />
+    <ClInclude Include="include\HashTable.h" />
+    <ClInclude Include="include\library.h" />
+    <ClInclude Include="include\MapStructs.h" />
+    <ClInclude Include="include\PriorityQueue.h" />
+    <ClInclude Include="include\readFiles.h" />
   </ItemGroup>
   <ItemGroup>
     <Object Include="library.obj" />

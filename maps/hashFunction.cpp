@@ -1,4 +1,4 @@
-#include "HashTable.h"
+#include "include/HashTable.h"
 
 unsigned int hash_function_s(string s, unsigned int tableSize)
 {

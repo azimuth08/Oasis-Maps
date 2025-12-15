@@ -3,10 +3,10 @@
 #include <sstream>
 #define _USE_MATH_DEFINES
 #include <cmath>
-#include "HashTable.h"
-#include "readFiles.h"
-#include "draw.h"
-#include "PriorityQueue.h"
+#include "include/HashTable.h"
+#include "include/readFiles.h"
+#include "include/draw.h"
+#include "include/PriorityQueue.h"
 
 using namespace std; 
 

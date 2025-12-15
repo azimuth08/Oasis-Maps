@@ -15,22 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="library.h">
+    <ClInclude Include="include\draw.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="draw.h">
+    <ClInclude Include="include\HashTable.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="HashTable.h">
+    <ClInclude Include="include\MapStructs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MapStructs.h">
+    <ClInclude Include="include\PriorityQueue.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="PriorityQueue.h">
+    <ClInclude Include="include\readFiles.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="readFiles.h">
+    <ClInclude Include="include\library.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
