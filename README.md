@@ -5,7 +5,7 @@ Graph :
 Intersection1 (PlaceB) -----Road---> Interseection2 (PlaceA)
 
 Algorithm :
-For the shortest path algorithm, I followed the UCS (uniform cost search) algorithm. The algorithm finds the shortest path by inserting and popping off a min heap using its total path length as a weight. The PathNodes are what keep track of all the different paths and how they connect. They allow the program to remember and track how different intersections connect in a path. The struct contains a pointer to its parent (the intersection prior), a road pointer that connects the current node with its paremt, and the total weight (length in miles) of the entire path. To keep track of the nodes visited, a new member was added to the Intersections struct, visited. This was set to true any time it was used in a path, preventing any loops or wasted paths from being created. 
+For the shortest path algorithm, I followed the UCS (uniform cost search) algorithm. The algorithm finds the shortest path by inserting and popping off a min heap using its total path length as a weight. The PathNodes keep track of all the different paths and how they connect. They allow the program to remember and track how different intersections connect in a path. The struct contains a pointer to its parent (the intersection prior), a road pointer that connects the current node with its paremt, and the total weight (length in miles) of the entire path. To keep track of the nodes visited, a new member was added to the Intersections struct, visited. This was set to true any time it was used in a path, preventing any loops or wasted paths from being created. 
 
 
 Examples
